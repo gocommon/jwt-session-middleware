@@ -2,9 +2,9 @@ package jwt
 
 import (
 	jwt "github.com/dgrijalva/jwt-go"
+	session "github.com/gocommon/jwt-session"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	session "github.com/weisd/casbin-admin/middleware/jwt-session"
 )
 
 var (
